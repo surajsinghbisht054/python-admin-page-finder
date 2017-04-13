@@ -26,17 +26,17 @@ Python Script For Finding Admin Page of Any Website
 ######################################################
 ```
 #######################################################
-![Screenshot](scr/test.png?raw=true "Screenshot1")
+![Screenshot](src/test.png?raw=true "Screenshot1")
 #########################################################
 
 
 #######################################################
-![Screenshot](scr/test1.png?raw=true "Screenshot2")
+![Screenshot](src/test1.png?raw=true "Screenshot2")
 #########################################################
 
 
 #######################################################
-![Screenshot](scr/test2.png?raw=true "Screenshot3")
+![Screenshot](src/test2.png?raw=true "Screenshot3")
 #########################################################
 
 
