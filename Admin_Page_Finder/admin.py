@@ -69,7 +69,7 @@ def login(url):
 		elif err.errno == 113:
 			print "[+] Network Problem! Server Not Found[+]"
 		else:
-			pass
+			print "[+] {} --> Page not found.".format(url)
 
 		return 
 
