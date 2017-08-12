@@ -2,16 +2,27 @@
 # -*- coding: utf-8 -*-
 #
 #
+# 
+# ---------------[ READ ME ]------------------------
+#
+# This Script Is Only For Educational Purposes.
+# I will Not Take Any Type Of Responsibility.
+# Use This Script On Your Own Responsibility.
+# No Warranty, No Responsibility
+#
 ##################################################
 ######## Please Don't Remove Author Name #########
 ############### Thanks ###########################
 ##################################################
 #
 #
+#
 __author__='''
+
 ######################################################
                 By S.S.B Group                          
 ######################################################
+
     Suraj Singh
     Admin
     S.S.B Group
@@ -19,20 +30,19 @@ __author__='''
     http://bitforestinfo.blogspot.com/
 
     Note: We Feel Proud To Be Indian
+
 ######################################################
-[#] ----------[ READ ME ]----------------------------
-[#] This Script is Created For Practise And Educational Purpose Only
-[#] I will Not Take Any Type Of Responsibility.
-[#] Use This Script On Your Own Responsibility.
-[#] No Warranty, No Responsibility
-[#]
+
+
+
+
 [^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^]
 [#].............................................[#]
 [#]...........Admin Page Finder.................[#]
 [#]...................Written In Python.........[#]
-[#]......................By Suraj Singh Bisht...[#]
 [#].............................................[#]
 [^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^]
+
 '''
 print __author__
 
