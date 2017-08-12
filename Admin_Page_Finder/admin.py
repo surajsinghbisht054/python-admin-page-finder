@@ -46,9 +46,18 @@ __author__='''
 '''
 print __author__
 
+
+
+
 # Import Modules
 import urllib2
 import cookielib
+import urlparse
+import sys
+import time
+
+
+
 
 def login(url):
 
@@ -270,7 +279,7 @@ elif Extension=="6":
 elif Extension=="7":
 	ext = ext_brf
 else:
-	print "You Entered Wrong Input!"
+	print "You Entered Wrong Input! Triggered To Default Option"
 	ext = ext_php
 
 
@@ -279,16 +288,42 @@ print "[+] Finding Process Started."
 
 print "[+] Searching...."
 
+starting_time = time.time()
+tried_urls=0
+
 for i in ext:
-	if login(site+'/'+i):
+	tried_urls+=1
+	if login(urlparse.urljoin(site,i)):
 		print """ 
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+:) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)
 
-		!!!!PAGE FOUND!!!
+			!!!!PAGE FOUND!!!
 
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+:) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)
+
+
+
 		"""
+		print "[#] Admin Page Url : {}".format(urlparse.urljoin(site,i))
+		closing_time = time.time()
+		print "[#] Total Time Taken : {}".format(closing_time-starting_time)
+		print "[#] Starting Time    : {}".format(time.ctime(starting_time))
+		print "[#] Closing Time     : {}".format(time.ctime(closing_time))
+		print "[#] Total Url Tried  : {}".format(tried_urls)
+		print "\n\n\n"
 		exit(0)
 
-print "Unable To Find Admin Page!"
+
+print """
+:( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :(
+
+		Sorry! Unable To Find Admin Page
+
+:( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :( :(
+"""
+closing_time = time.time()
+print "[#] Total Time Taken : {}".format(closing_time-starting_time)
+print "[#] Starting Time    : {}".format(time.ctime(starting_time))
+print "[#] Closing Time     : {}".format(time.ctime(closing_time))
+print "[#] Total Url Tried  : {}".format(tried_urls)
