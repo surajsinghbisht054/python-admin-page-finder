@@ -1,43 +1,25 @@
-# python-admin-page-finder
 Python Script For Finding Admin Page of Any Website
 
-
-
-# This Script is Created For Practise And Educational Purpose Only
-
-
-# The Author We will not take any type of responsibility
-
-
-## __author__
 ```
-
-######################################################
-                By S.S.B Group                          
-######################################################
-
     Suraj Singh
     Admin
     S.S.B Group
     surajsinghbisht054@gmail.com
     https://bitforestinfo.blogspot.in/
 
-    Note: We Feel Proud To Be Indian
-######################################################
 ```
-#######################################################
+
+
 ![Screenshot](src/test.png?raw=true "Screenshot1")
-#########################################################
 
+---
 
-#######################################################
 ![Screenshot](src/test1.png?raw=true "Screenshot2")
-#########################################################
 
 
-#######################################################
+---
+
 ![Screenshot](src/test2.png?raw=true "Screenshot3")
-#########################################################
 
 
 
